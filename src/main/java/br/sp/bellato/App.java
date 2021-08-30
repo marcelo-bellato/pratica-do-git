@@ -8,5 +8,6 @@ public class App {
         System.out.println("Hello World!");
         System.out.println("Ola MUndo!");
         System.out.println("salut le monde!");
+        System.out.println("erro erro erro");
     }
 }
