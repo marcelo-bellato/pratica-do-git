@@ -11,6 +11,14 @@ public class DefinicaoMetodo {
             System.out.println("não nasceu");
     }
 
+    static void decidirPorIdadeeGravidez(Integer idade, boolean gravida){
+        if(idade>=60 || gravida){
+            System.out.println("prioritario");
+        }else{
+            System.out.println("normal");
+        }
+    }
+
     static void ola(String saudacao){
         System.out.println(saudacao);
     }
@@ -19,7 +27,7 @@ public class DefinicaoMetodo {
         System.out.println("ola, " + tratamento + "." + nome );
     }
 
-    static void decidirPrioridade(boolean gravida){
+    static void decidirPorGravidez(boolean gravida){
         if(gravida){
             System.out.println("prioritario");
         }
@@ -37,7 +45,9 @@ public class DefinicaoMetodo {
 
         saudar("Sr", "Marcelo");
 
-        decidirPrioridade(true);
+        decidirPorGravidez(true);
+
+        decidirPorIdadeeGravidez(59, false);
     }
 
 }
