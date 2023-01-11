@@ -1,4 +1,4 @@
-package br.sp.bellato.curso_java.fundamentos;
+package br.sp.bellato.curso_java.fundamentos.desafios;
 
 import java.util.Scanner;
 

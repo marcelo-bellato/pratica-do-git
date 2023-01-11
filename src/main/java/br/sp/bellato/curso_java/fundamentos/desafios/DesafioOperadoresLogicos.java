@@ -1,4 +1,4 @@
-package br.sp.bellato.curso_java.fundamentos.operadores;
+package br.sp.bellato.curso_java.fundamentos.desafios;
 
 public class DesafioOperadoresLogicos
 {
